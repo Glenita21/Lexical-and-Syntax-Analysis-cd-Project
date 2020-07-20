@@ -1,0 +1,11 @@
+S -> i F
+F -> M n b n T
+M -> m ( )
+T -> A T | A
+A -> D c n | X c n | W n | b n | e n
+D -> i E
+E -> C o E | C
+C -> d q u | d
+W -> w ( X )
+X -> d q V p V | d
+V -> d | u
